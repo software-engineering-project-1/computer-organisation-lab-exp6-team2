@@ -12,7 +12,7 @@ class Memory{
 			dynamicData.push(0); 
 		}
 		
-		const localSymbolTable={};
+		const localSymbolTable=new Array();
 	}
 	static setBeginingAddressOfWord(VariableName){
 		if(currentDynamicDataAddress %4 !==0){
