@@ -12,7 +12,6 @@ import java.util.*;
 */
 
 class MIPSProgram {
-
 	constructor{
 		//System.out.println("*********  MIPS Simulator 1.1  *********\n");
 		var filename;
@@ -61,7 +60,6 @@ class MIPSProgram {
             for(var i=0 ; i<AllInstructions.length;i++){
                 sourceLinesToDisplay.push(AllInstructions[i].getSource());
             }
-
             return sourceLinesToDisplay ;
         }
 
